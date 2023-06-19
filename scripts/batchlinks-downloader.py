@@ -136,7 +136,7 @@ aestheticembedpath = os.path.join(script_path, "extensions/stable-diffusion-webu
 cnetpath = os.path.join(script_path, "extensions/sd-webui-controlnet/models")
 extpath = os.path.join(script_path, "extensions") #obsolete
 upscalerpath = os.path.join(script_path, "models/ESRGAN")
-lycorispath = os.path.join(addnetlorapath, "lycoris")
+lycorispath = os.path.join(script_path, "models/LyCORIS")
 
 if vladmandic:
     cnetpath = os.path.join(script_path, "models/ControlNet")
