@@ -29,7 +29,7 @@ except ImportError: #sdless
         downloadpath = os.path.join(userhome, "Downloads")
         script_path = os.path.join(downloadpath, "stable-diffusion-webui")
     else:
-        script_path = '/kaggle/working/stable-diffusion-webui'
+        script_path = '/content/stable-diffusion-webui'
     models_path = os.path.join(script_path, 'models')
     gradio_queue = True
     ckpt_dir = None
